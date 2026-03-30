@@ -9,7 +9,7 @@ export default {
       label: "Українська",
       lang: "uk-UA",
       title: "LuxPower SNA6000 Wiki",
-      description: "Практичний гайд по налаштуванню інверторів LuxPower",
+      description: "Wiki по налаштуванню LuxPower SNA6000",
       themeConfig: {
         nav: [{ text: "Головна", link: "/" }],
         sidebar: [
