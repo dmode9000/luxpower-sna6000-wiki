@@ -33,7 +33,7 @@ jobs:
 
       - name: Build site
         env:
-          VITEPRESS_BASE: /luxpower-wiki/
+          VITEPRESS_BASE: /luxpower-sna6000-wiki/
         run: npm run build
 
       - name: Setup Pages
