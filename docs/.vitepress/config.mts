@@ -313,6 +313,8 @@ export default {
             items: [
               { text: "Паралельні системи", link: "/faq/faq-parallel" },
               { text: "Помилки та несправності", link: "/faq/faq-error" },
+              { text: "Охолодження та шум", link: "/faq/faq-cooling-and-noise" },
+              { text: "Прошивка", link: "/faq/faq-firmware" },
               { text: "Інше", link: "/faq/faq-other" },
             ],
           },
