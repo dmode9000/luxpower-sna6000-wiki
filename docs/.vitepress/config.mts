@@ -1,5 +1,8 @@
 // https://vitepress.dev/reference/site-config
+const base = process.env.VITEPRESS_BASE || "/";
+
 export default {
+  base,
   lastUpdated: true,
   locales: {
     root: {
