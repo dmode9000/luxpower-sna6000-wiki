@@ -315,6 +315,8 @@ export default {
               { text: "Помилки та несправності", link: "/faq/faq-error" },
               { text: "Охолодження та шум", link: "/faq/faq-cooling-and-noise" },
               { text: "Прошивка", link: "/faq/faq-firmware" },
+              { text: "Генератор та SmartLoad", link: "/faq/faq-generator-smartload" },
+              { text: "Паралельне підключення", link: "/faq/faq-parallel" },
               { text: "Інше", link: "/faq/faq-other" },
             ],
           },
