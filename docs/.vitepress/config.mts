@@ -15,7 +15,7 @@ export default {
         sidebar: [
           {
             text: "Settings",
-            // collapsed: true,
+            collapsed: true,
             items: [
               {
                 text: "Model Setting",
@@ -310,13 +310,19 @@ export default {
 
           {
             text: "FAQ Часті запитання",
+            collapsed: true,
             items: [
+              { text: "Налаштування", link: "/faq/faq-settings" },
               { text: "Паралельні системи", link: "/faq/faq-parallel" },
               { text: "Помилки та несправності", link: "/faq/faq-error" },
               { text: "Охолодження та шум", link: "/faq/faq-cooling-and-noise" },
               { text: "Прошивка", link: "/faq/faq-firmware" },
               { text: "Генератор та SmartLoad", link: "/faq/faq-generator-smartload" },
               { text: "Паралельне підключення", link: "/faq/faq-parallel" },
+              { text: "Монтаж та підключення", link: "/faq/faq-installing-and-connecting" },
+              { text: "Батарея та BMS", link: "/faq/faq-battery-and-bms" },
+              { text: "Моніторинг та інтеграція", link: "/faq/faq-monitoring-integration" },
+              { text: "PV панелі", link: "/faq/faq-solar-panels" },
               { text: "Інше", link: "/faq/faq-other" },
             ],
           },
