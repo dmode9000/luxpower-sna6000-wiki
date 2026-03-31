@@ -8,14 +8,14 @@ export default {
     root: {
       label: "Українська",
       lang: "uk-UA",
-      title: "LuxPower SNA6000 Wiki",
+      title: "LuxPower SNA6000",
       description: "Wiki по налаштуванню LuxPower SNA6000",
       themeConfig: {
         nav: [{ text: "Головна", link: "/" }],
         sidebar: [
           {
             text: "Settings",
-            collapsed: true,
+            collapsed: false,
             items: [
               {
                 text: "Model Setting",
