@@ -91,6 +91,8 @@ export default {
                 items: [
                   { text: "Battery Type", link: "/settings/battery_type" },
                   { text: "Lithium Type", link: "/settings/lithium_type" },
+                  { text: "Absorb Voltage(V)", link: "/settings/absorb_voltage" },
+                  { text: "Float Voltage(V)", link: "/settings/float_voltage" },
                   {
                     text: "Charging",
                     collapsed: true,
@@ -243,7 +245,7 @@ export default {
                     items: [
                       { text: "Generator Boost", link: "/settings/gen_generator_boost" },
                       {
-                        text: "Generator Charge Type (?)",
+                        text: "Generator Charge Type",
                         link: "/settings/gen_generator_charge_type",
                       },
                       {
@@ -251,11 +253,11 @@ export default {
                         link: "/settings/gen_cool_down_time_min",
                       },
                       {
-                        text: "Max. Generator Input Power(W) (?)",
+                        text: "Max. Generator Input Power(W)",
                         link: "/settings/gen_max_input_power_w",
                       },
                       {
-                        text: "Generator Charge Battery Current(A) (?)",
+                        text: "Generator Charge Battery Current(A)",
                         link: "/settings/gen_charge_battery_current_a",
                       },
                       { text: "Charge Start/Stop", link: "/settings/gen_charge_start_stop" },
@@ -265,10 +267,10 @@ export default {
                     text: "Smart Load",
                     collapsed: true,
                     items: [
-                      { text: "Smart Load (?)", link: "/settings/smart_load" },
-                      { text: "Grid Always On (?)", link: "/settings/smart_load_grid_always_on" },
+                      { text: "Smart Load", link: "/settings/smart_load" },
+                      { text: "Grid Always On", link: "/settings/smart_load_grid_always_on" },
                       {
-                        text: "Start PV Power(kW) (?)",
+                        text: "Start PV Power(kW)",
                         link: "/settings/smart_load_start_pv_power_kw",
                       },
                       {
@@ -292,7 +294,8 @@ export default {
                 collapsed: true,
                 items: [
                   { text: "Fan speed slope", link: "/settings/fan_speed_slope" },
-                  { text: "Fan Max Speed(%) (?)", link: "/settings/fan_max_speed" },
+                  { text: "Fan Max Speed(%)", link: "/settings/fan_max_speed" },
+                  { text: "CT Power Offset(W)", link: "/settings/ct_power_offset" },
                 ],
               },
               {
@@ -307,25 +310,28 @@ export default {
               },
             ],
           },
-
+          {
+            text: "Trouble shooting",
+            collapsed: true,
+            items: [
+              { text: "Помилки", link: "/troubleshooting/faults" },
+              { text: "Попередження", link: "/troubleshooting/warnings" },
+            ],
+          },
           {
             text: "FAQ Часті запитання",
             collapsed: true,
             items: [
-              { text: "Налаштування", link: "/faq/faq-settings" },
-              { text: "Паралельні системи", link: "/faq/faq-parallel" },
-              { text: "Помилки та несправності", link: "/faq/faq-error" },
-              { text: "Охолодження та шум", link: "/faq/faq-cooling-and-noise" },
-              { text: "Прошивка", link: "/faq/faq-firmware" },
-              { text: "Генератор та SmartLoad", link: "/faq/faq-generator-smartload" },
-              { text: "Паралельне підключення", link: "/faq/faq-parallel" },
-              { text: "Монтаж та підключення", link: "/faq/faq-installing-and-connecting" },
-              { text: "Батарея та BMS", link: "/faq/faq-battery-and-bms" },
-              { text: "Моніторинг та інтеграція", link: "/faq/faq-monitoring-integration" },
-              { text: "PV панелі", link: "/faq/faq-solar-panels" },
-              { text: "Інше", link: "/faq/faq-other" },
+              { text: "Акумулятори та BMS", link: "/faq/faq-battery-and-bms" },
+              { text: "Сонячні панелі та Експорт", link: "/faq/faq-solar-panels" },
+              { text: "Електромонтаж та Захист", link: "/faq/faq-electrical-and-protection" },
+              { text: "Режими роботи та Навантаження", link: "/faq/faq-modes-and-load" },
+              { text: "Паралельна робота", link: "/faq/faq-parallel" },
+              { text: "Моніторинг та Інтеграція", link: "/faq/faq-monitoring-integration" },
+              { text: "Помилки та Несправності", link: "/faq/faq-troubleshooting" },
             ],
           },
+
           {
             text: "Telegram група",
             items: [{ text: "LuxPower SNA/LXP/GEN/TRIP", link: "https://t.me/+IZ2RyXDHTCUyNThi" }],
