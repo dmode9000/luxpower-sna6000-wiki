@@ -91,8 +91,10 @@ export default {
                 items: [
                   { text: "Battery Type", link: "/settings/battery_type" },
                   { text: "Lithium Type", link: "/settings/lithium_type" },
+                  { text: "Lead-acid Capacity", link: "/settings/lead_acid_capacity" },
                   { text: "Absorb Voltage(V)", link: "/settings/absorb_voltage" },
                   { text: "Float Voltage(V)", link: "/settings/float_voltage" },
+                  { text: "Equalization Voltage(V)", link: "/settings/equalization_voltage" },
                   {
                     text: "Charging",
                     collapsed: true,
