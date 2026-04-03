@@ -316,8 +316,8 @@ export default {
             text: "Trouble shooting",
             collapsed: true,
             items: [
-              { text: "Помилки", link: "/troubleshooting/faults" },
-              { text: "Попередження", link: "/troubleshooting/warnings" },
+              { text: "Faults", link: "/troubleshooting/faults" },
+              { text: "Warnings", link: "/troubleshooting/warnings" },
             ],
           },
           {
