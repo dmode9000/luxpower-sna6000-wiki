@@ -235,6 +235,10 @@ export default {
                       { text: "T1 T2 T3", link: "/settings/forced_discharge_t1_t2_t3" },
                     ],
                   },
+                  {
+                    text: "Self Consumption",
+                    link: "/settings/self_consumption",
+                  },
                 ],
               },
               {
