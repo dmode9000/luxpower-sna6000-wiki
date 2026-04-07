@@ -322,6 +322,7 @@ export default {
             items: [
               { text: "Faults", link: "/troubleshooting/faults" },
               { text: "Warnings", link: "/troubleshooting/warnings" },
+              { text: "BatStatusInv", link: "/troubleshooting/battery_status_codes" },
             ],
           },
           {
