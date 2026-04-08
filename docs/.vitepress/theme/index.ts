@@ -1,5 +1,6 @@
 import DefaultTheme from "vitepress/theme";
 import { inBrowser } from "vitepress";
+import MyLayout from "./MyLayout.vue";
 
 export default {
   ...DefaultTheme,
@@ -16,4 +17,5 @@ export default {
     //   window.location.replace("/en/");
     // }
   },
+  Layout: MyLayout,
 };

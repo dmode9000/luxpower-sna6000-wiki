@@ -18,6 +18,7 @@
     "vitepress": "^1.6.4"
   },
   "dependencies": {
+    "medium-zoom": "^1.1.0",
     "vitepress-component-medium-zoom": "^1.1.1"
   }
 }
