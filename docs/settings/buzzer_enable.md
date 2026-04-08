@@ -1,5 +1,7 @@
 # Buzzer Enable
 
+![screenshot](buzzer_enable_01.png)
+
 Налаштування **`Buzzer Enable`** відповідає за роботу вбудованого звукового динаміка (зумера) інвертора. За замовчуванням ця функція увімкнена (Enable).
 
 |        | installer web | end-user web | mobile app | Display |

@@ -1,5 +1,7 @@
 # Normal / Standby
 
+![screenshot](standby_01.png)
+
 Перемикач **`Normal / Standby`** (Нормальний / Режим очікування) — це інструмент керування поточним станом інвертора, який найчастіше використовується для сервісного обслуговування.
 
 |        | installer web | end-user web | mobile app | Display |

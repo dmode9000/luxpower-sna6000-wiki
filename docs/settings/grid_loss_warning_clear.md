@@ -1,5 +1,7 @@
 # Grid Loss Warning Clear
 
+![screenshot](grid_loss_warning_clear_01.png)
+
 Налаштування **`Grid Loss Warning Clear`** (Очищення попередження про втрату мережі), керує відображенням сповіщень про зникнення напруги в зовнішній електромережі.
 
 |        | installer web | end-user web | mobile app | Display |

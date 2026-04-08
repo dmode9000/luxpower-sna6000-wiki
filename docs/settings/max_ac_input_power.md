@@ -1,5 +1,7 @@
 # Max. AC Input Power(kW)
 
+![screenshot](max_ac_input_power_01.png)
+
 Налаштування **`Max. AC Input Power(kW)`** відповідає за **обмеження потужності заряду батареї, при заряді від загальної електромережі (Grid)**, щоб заряд батареї не призводив до перевищення заданого порогу потужності на вході в інвертор.
 
 |        | installer web | end-user web | mobile app | Display |

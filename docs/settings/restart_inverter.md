@@ -1,5 +1,7 @@
 # Restart Inverter
 
+![screenshot](restart_inverter_01.png)
+
 Налаштування **`Restart Inverter`** з кнопкою **`Restart`** дозволяє виконати **віддалене апаратне перезавантаження** вашого інвертора безпосередньо через веб-портал або додаток.
 
 |        | installer web | end-user web | mobile app | Display |
