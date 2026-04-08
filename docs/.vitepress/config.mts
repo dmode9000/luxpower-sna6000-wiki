@@ -1,5 +1,6 @@
 // https://vitepress.dev/reference/site-config
 const base = process.env.VITEPRESS_BASE || "/";
+const isProd = process.env.NODE_ENV === "production";
 
 export default {
   base,
@@ -358,4 +359,22 @@ export default {
       provider: "local",
     },
   },
+
+  head: [
+    isProd && [
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-J3BNT9WRGT",
+      },
+    ],
+    isProd && [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-J3BNT9WRGT');`, 
+    ],
+  ].filter(Boolean) as any[],
 };
