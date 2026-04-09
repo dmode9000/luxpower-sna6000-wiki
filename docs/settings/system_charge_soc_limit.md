@@ -1,6 +1,6 @@
 # System Charge SOC Limit (%)
 
-![alt text](image.png)
+![alt text](system_charge_soc_limit_01.png)
 
 ## Призначення
 
