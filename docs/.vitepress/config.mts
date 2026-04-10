@@ -202,6 +202,7 @@ export default {
                     text: "AC First",
                     collapsed: true,
                     items: [
+                      { text: "AC First Mode", link: "/settings/ac_first_mode" },
                       {
                         text: "Stop Charge First SOC",
                         link: "/settings/stop_charge_first_soc",

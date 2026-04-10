@@ -1,4 +1,4 @@
-# Forced Discharge Power (kW / %)
+# Forced Discharge Power(kW)
 
 ## Призначення
 
