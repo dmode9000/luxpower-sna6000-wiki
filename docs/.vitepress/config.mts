@@ -322,9 +322,10 @@ export default {
             text: "Trouble shooting",
             collapsed: true,
             items: [
-              { text: "Faults", link: "/troubleshooting/faults" },
-              { text: "Warnings", link: "/troubleshooting/warnings" },
-              { text: "BatStatusInv", link: "/troubleshooting/battery_status_codes" },
+              { text: "Помилки", link: "/troubleshooting/faults" },
+              { text: "Попередження", link: "/troubleshooting/warnings" },
+              { text: "Коди батареї", link: "/troubleshooting/battery_status_codes" },
+              { text: "Таблиця історії", link: "/troubleshooting/history_table" },
             ],
           },
           {
@@ -375,7 +376,7 @@ export default {
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-J3BNT9WRGT');`, 
+      gtag('config', 'G-J3BNT9WRGT');`,
     ],
   ].filter(Boolean) as any[],
 };
