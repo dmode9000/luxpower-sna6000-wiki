@@ -1,5 +1,7 @@
 # Generator Cool-Down Time (Min) / Захисна пауза після вимкнення
 
+![alt text](gen_cool_down_time_min_01.png)
+
 ## Призначення
 
 Цей параметр працює як **таймер блокування повторного запуску (lockout timer)** з боку інвертора.

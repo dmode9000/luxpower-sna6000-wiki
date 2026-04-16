@@ -1,5 +1,7 @@
 # Generator Charge Battery Current (A)
 
+![alt text](gen_charge_battery_current_a_01.png)
+
 ## Призначення
 
 Цей параметр встановлює максимально допустимий струм (в Амперах), яким генератор може заряджати акумуляторну батарею.
