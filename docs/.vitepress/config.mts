@@ -269,6 +269,7 @@ export default {
                         link: "/settings/gen_charge_battery_current_a",
                       },
                       { text: "Charge Start/Stop", link: "/settings/gen_charge_start_stop" },
+                      { text: "Gen Time", link: "/settings/gen_time" },
                     ],
                   },
                   {
