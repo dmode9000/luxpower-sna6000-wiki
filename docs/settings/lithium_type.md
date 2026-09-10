@@ -26,6 +26,8 @@ _(На РК-дисплеї інвертора цей вибір здійснює
 - **`6: Lux`**: протокол LuxpowerTek. Також використовується для Pytes, Dowell, HANCHU, LBSA (Smart units) та Felicitysolar (з прошивкою BMS від V409).
 - **`8: Rsvd`** батареї Dyness (раніше були в списку сумісних, але тепер ні).
 
+Для JK PB BMS, налаштованої на `011: LuxpowerTek`, в інверторі обирайте `6: Lux`. Повну топологію CAN/RS485, адресацію Master/Slave та вимоги до кабелю наведено у [FAQ про підключення JK PB BMS](/faq/faq-battery-and-bms#схема-підключення-jk-pb-bms-до-luxpower-sna6000-can-rs485-та-адреси-модулів).
+
 ## Примітки та важливі деталі
 
 > [!WARNING] **Помилка зв'язку Warning 00 (Battery Com Fault):**
