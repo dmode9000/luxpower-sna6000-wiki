@@ -1,9 +1,22 @@
 // https://vitepress.dev/reference/site-config
+import { defineConfig } from "vitepress";
+
 const base = process.env.VITEPRESS_BASE || "/";
 const isProd = process.env.NODE_ENV === "production";
+const siteUrl = "https://dmode9000.github.io/luxpower-sna6000-wiki/";
 
-export default {
+export default defineConfig({
   base,
+  sitemap: {
+    hostname: siteUrl,
+  },
+  transformHead({ pageData }) {
+    if (pageData.relativePath === "404.md") return [];
+    const path = pageData.relativePath
+      .replace(/(^|\/)index\.md$/, "$1")
+      .replace(/\.md$/, ".html");
+    return [["link", { rel: "canonical", href: new URL(path, siteUrl).href }]];
+  },
   lastUpdated: true,
   locales: {
     root: {
@@ -380,4 +393,4 @@ export default {
       gtag('config', 'G-J3BNT9WRGT');`,
     ],
   ].filter(Boolean) as any[],
-};
+});
